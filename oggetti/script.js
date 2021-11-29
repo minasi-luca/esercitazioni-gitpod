@@ -1,17 +1,15 @@
+
 const gallo = {
-    specie: "gallo",
-    razza: "andalusa",
-    zampe: 2,
-    verso: chichirichi,
-    
-  };
-
-
+  specie: "gallo",
+  razza: "andalusa",
+  zampe: 2,
+  verso: "chichirichi"
+}
   const maiale = {
     specie: "maiale",
     razza: "scrofa",
     zampe: 4,
-    verso: ronfronf,
+    verso: "ronfronf"
   };
 
 
@@ -19,8 +17,12 @@ const gallo = {
     specie: "mucca",
     razza: "chianina",
     zampe: 4,
-    verso: muuuu,
+    verso: "muuuu"
     
   };
-  
+
+
+  function buttongallo (){
+  document.getElementById("galloid").innerHTML = gallo.razza + " " 
+  }
   
