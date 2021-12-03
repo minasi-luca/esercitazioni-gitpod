@@ -23,6 +23,13 @@ const gallo = {
 
 
   function buttongallo (){
-  document.getElementById("galloid").innerHTML = gallo.razza + " " 
+  document.getElementById("galloid").innerHTML = gallo.specie + " " + gallo.razza + " " + gallo.zampe + " " + gallo.verso
   }
   
+  function buttonmucca (){
+    document.getElementById("muccaid").innerHTML = mucca.specie + " " + mucca.razza + " " + mucca.zampe + " " + mucca.verso
+    }
+    function buttonmaiale (){
+      document.getElementById("maialeid").innerHTML = maiale.specie + " " + maiale.razza + " " + maiale.zampe + " " + maiale.verso
+      }
+    
