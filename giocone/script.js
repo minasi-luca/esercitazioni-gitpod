@@ -5,6 +5,31 @@ function startGame() {
   
 }
 function updateGameArea() {
+  if (animatedObject.x<wallpaper.x+v && animatedObject.speedX<0){
+    vLeft=0
+    animatedObject.speedX=0
+}
+if (animatedObject.x>wallpaper.x+1900-animatedObject.width-v && animatedObject.speedX>0){
+    vRight=0
+    animatedObject.speedX=0
+      
+}
+if (animatedObject.y>wallpaper.y+948-animatedObject.width-v && animatedObject.speedY>0){
+    animatedObject.speedY=0
+    animatedObject.y=890
+    
+}
+if (animatedObject.y<wallpaper.y+900-animatedObject.width-v ){
+    animatedObject.speedY+=1;
+    
+
+    
+
+
+
+    
+  
+}
   myGameArea.wallpaper(wallpaper);
  
   myGameArea.clear();
